@@ -3,7 +3,7 @@
 //  DogMinder
 //
 //  Created by Adrian Iraizos Mendoza on 30/11/22.
-//
+//  Creando linea de prueba para probar Github 11/12
 
 import SwiftUI
 import CoreData
@@ -27,8 +27,9 @@ struct ContentView: View {
                     }
                 }
                 .onDelete(perform: deleteItems)
-            }
+            }.navigationTitle("Prueba") //Añadida de prueba
             .toolbar {
+               
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
