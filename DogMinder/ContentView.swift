@@ -3,6 +3,7 @@
 //  DogMinder
 //
 //  Created by Adrian Iraizos Mendoza on 30/11/22.
+// Añadidos comentarios de prueba
 
 
 
@@ -25,8 +26,10 @@ struct ContentView: View {
                         Text("Tiempo at \(item.timestamp!, formatter: itemFormatter)")
                         
                         Text("Prueba de Git")
+                        Text("Prueba de GitHub 11/12")
                     } label: {
                         Text(item.timestamp!, formatter: itemFormatter)
+                        Text("Prueba de Git")
                     }
                 }
                 .onDelete(perform: deleteItems)
