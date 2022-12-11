@@ -3,7 +3,8 @@
 //  DogMinder
 //
 //  Created by Adrian Iraizos Mendoza on 30/11/22.
-//  Creando linea de prueba para probar Github 11/12
+
+
 
 import SwiftUI
 import CoreData
@@ -22,6 +23,8 @@ struct ContentView: View {
                 ForEach(items) { item in
                     NavigationLink {
                         Text("Tiempo at \(item.timestamp!, formatter: itemFormatter)")
+                        
+                        Text("Prueba de Git")
                     } label: {
                         Text(item.timestamp!, formatter: itemFormatter)
                     }
